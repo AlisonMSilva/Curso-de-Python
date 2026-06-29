@@ -2,4 +2,4 @@
 de boas-vindas"""
 nome = input("Digite o seu nome: ")
 
-print(f"É um prazer te conhecer, {nome}!")
+print(f"É um prazer te conhecer, \033[32m{nome}\033[m!")
